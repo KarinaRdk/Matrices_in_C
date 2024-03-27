@@ -1,20 +1,23 @@
 # Matrices in C
-Library for processing numerical matrices in the C programming language
+Library for processing numerical matrices in the C programming language. It's designed to perform various matrix operations:
 
-It's designed to perform various matrix operations, including creation, manipulation, and mathematical operations such as addition, subtraction, multiplication, and finding the determinant and inverse of a matrix. 
+## Features
+<ol>
+<li>Matrix Creation: Dynamically create matrices of specified dimensions.</li>
+<li>Matrix Operations: Perform basic matrix operations like addition, subtraction, and multiplication.</li>
+<li> Matrix Transposition: Transpose a matrix, swapping rows with columns.</li>
+<li>Matrix Inversion: Calculate the inverse of a matrix, provided it is invertible.</li>
+<li>Determinant Calculation: Compute the determinant of a matrix using Gaussian Elimination.</li>
+<li>Matrix Complement Calculation: Calculate the matrix of minors and cofactors.</li>
+<li>Matrix Equality Check: Check if two matrices are equal.</li>
+<li> Matrix Copy: Create a copy of a matrix.</li>
+</ol>
 
-Features
-Matrix Creation: Dynamically create matrices of specified dimensions.
-Matrix Operations: Perform basic matrix operations like addition, subtraction, and multiplication.
-Matrix Transposition: Transpose a matrix, swapping rows with columns.
-Matrix Inversion: Calculate the inverse of a matrix, provided it is invertible.
-Determinant Calculation: Compute the determinant of a matrix using Gaussian Elimination.
-Matrix Complement Calculation: Calculate the matrix of minors and cofactors.
-Matrix Equality Check: Check if two matrices are equal.
-Matrix Copy: Create a copy of a matrix.
-Getting Started
+## Getting Started
+
 To use the S21 Matrix Library, include the s21_matrix.h header file in your C project. 
-Example Usage:
+
+## Example Usage:
     
 
     #include "s21_matrix.h"
